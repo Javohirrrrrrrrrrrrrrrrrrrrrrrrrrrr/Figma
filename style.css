@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.header ul {
+    display: flex;
+    gap: 50px;
+}
+
+.header ul li a {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: #222222;
+}
+
+.header .active {
+    color: #0082F3;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.banner .left h1 {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: #333333;
+}
+
+.banner .left p {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #333333;
+    margin: 30px 0;
+}
+
+.banner2 {
+    display: flex;
+    align-items: center;
+}
+
+.banner2 .right p {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #333333;
+    margin: 30px 0;
+}
+
+.banner2 .right h1 {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: #333333;
+}
+
+.works {
+    width: 80%;
+    margin: auto;
+
+}
+
+.works h3 {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 60px;
+    color: #333333;
+}
+
+.works .wrap {
+    display: flex;
+    align-items: center;
+}
+
+.works .wrap .box {
+    display: flex;
+    box-shadow: 0px 0px 10px 0px #B7B7B7;
+    width: 30%;
+    height: 327px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.works .wrap .box h5 {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #333333;
+}
+
+.works .wrap .box p {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.works .box:nth-child(1) {
+    border-top: 12px solid #582EFF;
+}
+
+.works .box:nth-child(3) {
+    border-top: 12px solid #FF814A;
+}
+
+.works .box:nth-child(5) {
+    border-top: 12px solid #31C5A1;
+}
+
+.download {
+    width: 1440;
+    height: 371px;
+    top: 1712px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #31C5A1;
+}
+
+.download h3 {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.footer .s ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.footer .col {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
